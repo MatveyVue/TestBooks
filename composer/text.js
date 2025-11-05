@@ -19,12 +19,10 @@ composer.start(async (ctx) => {
         // Отправляем сообщение с HTML разметкой.
         // Кнопки не прикрепляем, так как в /start они не были созданы.
         await ctx.reply(startMessageText, {
-            parse_mode: 'MarkdownV2',
+            parse_mode: 'HTML',
         });
     } catch (error) {
         console.error("Error sending /start message:", error);
-        // В случае ошибки отправляем простое сообщение
-        await ctx.reply("Welcome! Please use commands to get books.");
     }
 });
 
