@@ -12,7 +12,7 @@ composer.start(async (ctx) => {
 
 composer.BooksClass10(async (ctx) => {
     const buttons = Markup.inlineKeyboard([
-        [Markup.button.url('Алгебра', 'https://t.me/GreatsJobsBot/GreatsJobs')],
+        [Markup.button.url('Алгебра', 'https://kstu.kg/fileadmin/user_upload/algebra_10-11_kl_ja_alimov_.pdf')],
         [Markup.button.url('Геометрия', 'https://t.me/@whsxg0')],
     ]);
 
