@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 
-const apiToken = '6632695365:AAH234LsLWIcoCL5EzKy_kGyj18skhd5xCU';
+const apiToken = '6632695365:AAH234LsLWIcoCL5EzKy_kGyj18skhd5xC';
 
 const bot = new Telegraf(apiToken, {
     telegram: {
